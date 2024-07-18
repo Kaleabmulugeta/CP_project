@@ -14,6 +14,6 @@ def find_common_words(file_paths):
     common_words = [word for word, count in word_counts.items() if count == len(file_paths)]
     return common_words
 
-file_paths = ['./cp_project/assets/amharic/cleantext.txt', './cp_project/assets/tigrigna/cleantext.txt']
+file_paths = ['./assets/amharic/cleantext.txt', './assets/tigrigna/cleantext.txt']
 common_words = find_common_words(file_paths)
 print(common_words)
